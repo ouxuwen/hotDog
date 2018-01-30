@@ -1,0 +1,331 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px "宋体", "Arial Narrow", HELVETICA;
+  background: #f3f3f3;
+  -webkit-text-size-adjust: 100%;
+}
+a {
+  color: #2d374b;
+  text-decoration: none;
+}
+a:hover {
+  color: #cd0200;
+  text-decoration: underline;
+}
+em {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  word-wrap: break-word;
+}
+html,
+.swiper-container {
+  min-width: 1400px;
+}
+.top-box,
+.top-box2,
+nav,
+footer,
+main {
+  padding: 0 20%;
+}
+/*公共样式*/
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+/*页头部分*/
+.top-box {
+  background-color: #e0dcdd;
+  color: #737473;
+  height: 30px;
+  line-height: 30px;
+}
+.top-box-left,
+.top-box-right {
+  display: inline-block;
+}
+.top-box2 {
+  background-color: #f3f3f3;
+}
+.logo,
+.search {
+  display: inline-block;
+}
+.logo {
+  width: 140px;
+  height: 80px;
+  background-color: rebeccapurple;
+  margin: 5px 0;
+}
+.search {
+  font-size: 0;
+}
+.search-top {
+  margin-top: 30px;
+  background-color: #f18a47;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 3px;
+}
+.search-top input {
+  height: 36px;
+  width: 451px;
+  font: 16px/22px arial;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  background-color: #f3f3f3;
+}
+.search-top button {
+  width: 122px;
+  height: 36px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #f18a47;
+  color: #fff;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+.search-bottom {
+  color: #9e9e9e;
+  font-size: 12px;
+}
+/*导航部分*/
+.nav {
+  min-width: 800px;
+  width: 60%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  z-index: 99;
+  font-size: 0;
+}
+.nav-title {
+  font-size: 17px;
+  display: inline-block;
+  width: 9%;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+.nav-title:hover {
+  background-color: #f18a47;
+  color: #000;
+  cursor: pointer;
+}
+.title-selected {
+  background-color: #f18a47;
+  color: #000;
+}
+/*主体部分*/
+/*宠物头条*/
+.headlines {
+  background-color: #fff;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.2);
+  font-size: 0;
+  color: #7e7e7d;
+  padding: 0 5px;
+}
+.headlines-left,
+.headlines-right {
+  display: inline-block;
+  width: 50%;
+  font-size: 12px;
+}
+.images-cwtt {
+  width: 70%;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.images-headlines {
+  height: 190px;
+  overflow: hidden;
+  background: url("images/headlines.jpg") no-repeat center;
+  position: relative;
+}
+.headlines-text p:first-child {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.headlines-text p:last-child {
+  line-height: 20px;
+}
+.know-btn {
+  border: 1px solid #ab8e61;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+.headlines-left-time-box {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 25px;
+  background-color: #595753;
+}
+.headlines-left-time-box p {
+  color: #f08a47;
+}
+.headlines-left-time-box,
+.headlines-right-time-box {
+  width: 80px;
+  height: 80px;
+  color: #5d5d5c;
+  text-align: center;
+}
+.headlines-left-time-box p:first-child,
+.headlines-right-time-box p:first-child {
+  font-size: 50px;
+}
+.headlines-left-time-box p:last-child,
+.headlines-right-time-box p:last-child {
+  font-size: 18px;
+}
+.headlines-right {
+  vertical-align: top;
+}
+.headlines-right-news {
+  font-size: 0;
+  border-bottom: 1px solid #cdcdcd;
+  height: 80px;
+  padding: 20px;
+  width: 90%;
+  margin: -10px auto 0;
+}
+.headlines-right-news:first-child {
+  padding-top: 0;
+}
+.headlines-right-news:last-child {
+  border-bottom: none;
+}
+.headlines-right-news-left,
+.headlines-right-news-right {
+  display: inline-block;
+  font-size: 12px;
+}
+.headlines-right-news-left {
+  width: 20%;
+}
+.headlines-right-news-right {
+  width: 80%;
+}
+/*宠物明星*/
+.star-photo,
+.boutique-photo {
+  width: 31%;
+  display: inline-block;
+  height: 215px;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+.star-photo img,
+.boutique-photo img {
+  width: 100%;
+  height: 215px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.star-photo .look,
+.boutique-photo .look {
+  width: 20px;
+  height: 20px;
+}
+.star-photo p,
+.boutique-photo p {
+  font-size: 12px;
+  color: #f0ebeb;
+  text-align: left;
+}
+.star-photo p:last-child,
+.boutique-photo p:last-child {
+  float: right;
+}
+.star-photo > img:hover {
+  transform: scale(1.2);
+}
+.images-star2 {
+  margin: 0 3.5%;
+}
+.star-photo-box {
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1% 2%;
+}
+/*精品*/
+.boutique-photo {
+  border-radius: 4px;
+}
+/*底部*/
+footer {
+  font-size: 0;
+  background-color: #3e3e3e;
+}
+footer p {
+  font-size: 12px;
+  color: #717171;
+  text-align: center;
+  margin: 10px 0px;
+}
+.footer-box {
+  display: inline-block;
+  width: 20%;
+  font-size: 12px;
+  color: #717171;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.footer-box p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
