@@ -139,6 +139,7 @@ main {
   left: 20%;
   z-index: 99;
   font-size: 0;
+  text-align: center;
 }
 .nav-title {
   font-size: 17px;
@@ -161,19 +162,18 @@ main {
 /*宠物头条*/
 .headlines {
   background-color: #fff;
-  width: 100%;
-  height: 400px;
+  min-width: 1000px;
   margin: 40px auto;
   box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.2);
   font-size: 0;
   color: #7e7e7d;
-  padding: 0 5px;
 }
 .headlines-left,
 .headlines-right {
   display: inline-block;
-  width: 50%;
+  width: 49%;
   font-size: 12px;
+  padding: 0 0.5%;
 }
 .images-cwtt {
   width: 70%;
@@ -302,6 +302,88 @@ main {
 /*精品*/
 .boutique-photo {
   border-radius: 4px;
+}
+/*宠物百科*/
+.baike-box {
+  display: inline-block;
+  font-size: 12px;
+  border: 1px solid #b5b5b5;
+  width: 28%;
+  padding: 1%;
+  height: 240px;
+  vertical-align: top;
+}
+.baike-box .baike-box-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.baike-box .baike-box-title span {
+  font-size: 27px;
+  margin-top: -5px;
+}
+.baike-box p {
+  line-height: 38px;
+  font-size: 18px;
+  border-bottom: 1px solid #b5b5b5;
+}
+.baike-box p span {
+  color: #999795;
+}
+.baike-box p:last-child {
+  border-bottom: none;
+}
+.baike-box1 {
+  margin-left: 20px;
+}
+.baike-box2 {
+  margin: 0 30px;
+}
+.baike-box3-gou,
+.baike-box3-mao {
+  margin-top: 10px;
+}
+.baike-box3-gou .baike-box3-title,
+.baike-box3-mao .baike-box3-title {
+  background-color: #f18a47;
+  color: #fffdfd;
+  font-size: 16px;
+  padding: 3px;
+}
+.category {
+  font-size: 0;
+}
+.category ul:first-child {
+  margin-top: 20px;
+  text-align: center;
+}
+.category ul:first-child li {
+  font-size: 24px;
+  display: inline-block;
+  width: 12.5%;
+}
+.category ul:last-child {
+  padding: 10px 20px;
+}
+.category ul:last-child li {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+.category ul:last-child li div {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #3b3939;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*友情链接*/
+.friendly-links {
+  font-size: 18px;
+  color: #767575;
+  padding: 0 10% 20px;
 }
 /*底部*/
 footer {
