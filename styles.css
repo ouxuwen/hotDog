@@ -306,6 +306,7 @@ main {
 .shopping {
   font-size: 0;
   text-align: center;
+  min-width: 1000px;
 }
 .shopping .shopping-photo-m {
   margin: 0 2%;
