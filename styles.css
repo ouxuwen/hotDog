@@ -300,8 +300,38 @@ main {
   padding: 1% 2%;
 }
 /*精品*/
-.boutique-photo {
-  border-radius: 4px;
+.b-shadow {
+  box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.2);
+}
+.shopping {
+  font-size: 0;
+  text-align: center;
+}
+.shopping .shopping-photo-m {
+  margin: 0 2%;
+}
+.shopping .shopping-photo-m div:last-child {
+  margin-top: 25px;
+}
+.shopping .shopping-photo {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+  cursor: pointer;
+}
+.shopping ul {
+  margin-top: 20px;
+  font-size: 0;
+  text-align: left;
+}
+.shopping li {
+  display: inline-block;
+  width: 18%;
+  margin-right: 2.5%;
+  box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.2);
+}
+.shopping li:last-child {
+  margin-right: 0;
 }
 /*宠物百科*/
 .baike-box {
@@ -349,12 +379,17 @@ main {
   font-size: 16px;
   padding: 3px;
 }
+.categorys {
+  background-color: #f18a47;
+  color: #fff;
+}
 .category {
   font-size: 0;
 }
 .category ul:first-child {
   margin-top: 20px;
   text-align: center;
+  padding: 0 20px;
 }
 .category ul:first-child li {
   font-size: 24px;
@@ -365,7 +400,7 @@ main {
   padding: 10px 20px;
 }
 .category ul:last-child li {
-  width: 200px;
+  width: 195px;
   display: inline-block;
   position: relative;
   margin: 10px;

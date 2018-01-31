@@ -244,8 +244,38 @@ html,.swiper-container{
   padding:1% 2%;
 }
   /*精品*/
-.boutique-photo{
-  border-radius: 4px;
+.b-shadow{
+  box-shadow: 1px 10px 40px rgba(0,0,0,.2);
+}
+.shopping{
+  font-size: 0;
+  text-align: center;
+  .shopping-photo-m{
+    margin: 0 2%;
+    div:last-child{
+      margin-top: 25px;
+    }
+  }
+  .shopping-photo{
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    cursor:pointer;
+  }
+  ul{
+    margin-top: 20px;
+    font-size: 0;
+    text-align: left;
+  }
+  li{
+    display: inline-block;
+    width: 18%;
+    margin-right: 2.5%;
+    box-shadow: 1px 10px 40px rgba(0,0,0,.2);
+  }
+  li:last-child{
+    margin-right: 0;
+  }
 }
 
   /*宠物百科*/
@@ -292,11 +322,16 @@ html,.swiper-container{
     padding: 3px;
   }
 }
+.categorys{
+  background-color: @all-bg-color;
+  color: #fff;
+}
 .category{
   font-size: 0;
   ul:first-child{
     margin-top: 20px;
     text-align: center;
+    padding: 0 20px;
     li{
       font-size: 24px;
       display: inline-block;
@@ -306,7 +341,7 @@ html,.swiper-container{
   ul:last-child{
     padding: 10px 20px;
     li{
-      width: 200px;
+      width: 195px;
       display: inline-block;
       position: relative;
       margin: 10px;
